@@ -1,0 +1,11 @@
+{
+  "name": "karui-backend",
+  "private": true,
+  "type": "module",
+  "description": "Karui Cloud Sorting: sorts a notification with OpenAI's decision model through Vercel's AI Gateway, for invited Karui users.",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test",
+    "invite": "node scripts/mint-invite.mjs"
+  }
+}
